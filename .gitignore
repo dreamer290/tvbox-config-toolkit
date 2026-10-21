@@ -38,3 +38,6 @@ output/tvbox-osc.json
 .device.json
 .ghtoken
 _authpoll.py
+
+# 推送用的本地 SSH 密钥
+.ssh/
