@@ -1,0 +1,692 @@
+[
+ {
+  "u": "https://szyyds.cn/tv/live/yy.txt",
+  "name": "音乐所",
+  "ok": true,
+  "err": "",
+  "nch": 19037,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain",
+  "ms": 3055,
+  "src": [
+   "szyyds"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://gh-proxy.com/https:/raw.githubusercontent.com/xmbjm/svip/refs/heads/main/FM.json",
+  "name": "拾光频道",
+  "ok": true,
+  "err": "",
+  "nch": 8390,
+  "alive": 3,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 7450,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://xhztv.top/xhz/live.txt",
+  "name": "live",
+  "ok": true,
+  "err": "",
+  "nch": 2422,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain",
+  "ms": 6977,
+  "src": [
+   "xiaohezi"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://cdn.jsdelivr.net/gh/Guovin/iptv-api@gd/output/result.m3u",
+  "name": "Guovin",
+  "ok": true,
+  "err": "",
+  "nch": 1619,
+  "alive": 1,
+  "samples": 4,
+  "ct": "audio/x-mpegurl",
+  "ms": 608,
+  "src": [
+   "eryuehong",
+   "vip1"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://g.33445500.xyz/https:/raw.githubusercontent.com/qist/tvbox/refs/heads/master/tvboxtv.txt",
+  "name": "ipv6",
+  "ok": true,
+  "err": "",
+  "nch": 1391,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1188,
+  "src": [
+   "shenmi"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://sub.ottiptv.cc/huyayqk.m3u",
+  "name": "虎牙一起看",
+  "ok": true,
+  "err": "",
+  "nch": 1086,
+  "alive": 4,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 2178,
+  "src": [
+   "fantaiying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://urlzf.zone.id/iptv-api/output/user_result.m3u",
+  "name": "24live",
+  "ok": true,
+  "err": "",
+  "nch": 1031,
+  "alive": 2,
+  "samples": 4,
+  "ct": "audio/x-mpegurl",
+  "ms": 3844,
+  "src": [
+   "jianpian"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://sub.ottiptv.cc/douyuyqk.m3u",
+  "name": "斗鱼一起看",
+  "ok": true,
+  "err": "",
+  "nch": 934,
+  "alive": 4,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 3724,
+  "src": [
+   "fantaiying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://sub.ottiptv.cc/yylunbo.m3u",
+  "name": "YY轮播",
+  "ok": true,
+  "err": "",
+  "nch": 545,
+  "alive": 4,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1625,
+  "src": [
+   "fantaiying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://z.szyyds.cn/iptv",
+  "name": "自动更新",
+  "ok": true,
+  "err": "",
+  "nch": 233,
+  "alive": 4,
+  "samples": 4,
+  "ct": "application/vnd.apple.mpegurl",
+  "ms": 78,
+  "src": [
+   "szyyds"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://47.120.41.246:8025/vip/jar/zb.php",
+  "name": "平台直播",
+  "ok": true,
+  "err": "",
+  "nch": 188,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1779,
+  "src": [
+   "eryuehong",
+   "vip1"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://193.123.86.190:14888/TV/iptv.php",
+  "name": "综合直播",
+  "ok": true,
+  "err": "",
+  "nch": 188,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1176,
+  "src": [
+   "fantaiying",
+   "niuer2",
+   "wangerxiao"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://ghproxy.net/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+  "name": "Kimentanm",
+  "ok": true,
+  "err": "",
+  "nch": 120,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 5032,
+  "src": [
+   "fantaiying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://ghfast.top/https://raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+  "name": "Kimentanm",
+  "ok": true,
+  "err": "",
+  "nch": 120,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 2185,
+  "src": [
+   "niuer"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://down.nigx.cn/raw.githubusercontent.com/Kimentanm/aptv/master/m3u/iptv.m3u",
+  "name": "Kimentanm",
+  "ok": true,
+  "err": "",
+  "nch": 120,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 802,
+  "src": [
+   "niuer2",
+   "wangerxiao"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://gh-proxy.com/https://github.com/Kimentanm/aptv/raw/master/m3u/iptv.m3u",
+  "name": "APTV",
+  "ok": true,
+  "err": "",
+  "nch": 120,
+  "alive": 1,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1431,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://nos.netease.com/ysf/3d75a78a0fc7ede372c03598d6d10367.m3u",
+  "name": "范明明（需开启V6网络）",
+  "ok": true,
+  "err": "",
+  "nch": 67,
+  "alive": 1,
+  "samples": 4,
+  "ct": "audio/x-mpegurl;charset=UTF-8",
+  "ms": 147,
+  "src": [
+   "fantaiying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://m.szyyds.cn/api.php?token=8664f352657e8b13585bcf0f84fc3512",
+  "name": "有效期27年7月",
+  "ok": true,
+  "err": "",
+  "nch": 51,
+  "alive": 2,
+  "samples": 4,
+  "ct": "application/vnd.apple.mpegurl;",
+  "ms": 88,
+  "src": [
+   "szyyds"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://szyyds.cn/tv/live/x.txt",
+  "name": "手动不知何时更新",
+  "ok": false,
+  "err": "抽样全部不通",
+  "nch": 6642,
+  "alive": 0,
+  "samples": 4,
+  "ct": "text/plain",
+  "ms": 904,
+  "src": [
+   "szyyds"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://epg.pw/test_channels.m3u",
+  "name": "live",
+  "ok": false,
+  "err": "抽样全部不通",
+  "nch": 2002,
+  "alive": 0,
+  "samples": 4,
+  "ct": "application/octet-stream",
+  "ms": 3799,
+  "src": [
+   "shenmi"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://cdn.jsdelivr.net/gh/liu673cn/box@main/libs/tv/tvlive.txt",
+  "name": "SAO0",
+  "ok": false,
+  "err": "抽样全部不通",
+  "nch": 767,
+  "alive": 0,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 341,
+  "src": [
+   "hao11_jsdelivr"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://raw.liucn.cc/box/libs/tv/tvlive.txt",
+  "name": "SAO0",
+  "ok": false,
+  "err": "抽样全部不通",
+  "nch": 767,
+  "alive": 0,
+  "samples": 4,
+  "ct": "text/plain; charset=utf-8",
+  "ms": 1602,
+  "src": [
+   "ok1_liucn"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://rihou.cc:567/gggg.nzk",
+  "name": "港澳台",
+  "ok": false,
+  "err": "URLError: <urlopen error timed out>",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "eryuehong",
+   "vip1"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://xn--ihqu10cn4c.xn--z7x900a.live/TV/tvzb.txt",
+  "name": "肥猫",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "hao11_jsdelivr",
+   "ok1_liucn"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://cdn.jsdelivr.net/gh/liu673cn/box@main/lib/tv/ipv6.m3u",
+  "name": "IPV6",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "hao11_jsdelivr"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://php.cqshushu.ggff.net/jzb.php?公众号【医工学习日志】",
+  "name": "极直播电视(php)",
+  "ok": false,
+  "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 13-23: ordinal not in range(128)",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "jianpian"
+  ],
+  "type": null
+ },
+ {
+  "u": "http://php.cqshushu.ggff.net/kqt.php?公众号【医工学习日志】",
+  "name": "88KQ",
+  "ok": false,
+  "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 13-23: ordinal not in range(128)",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "jianpian",
+   "shiguang"
+  ],
+  "type": null
+ },
+ {
+  "u": "https://gh.tryxd.cn/raw.githubusercontent.com/lystv/short/main/影视/tvb/MTV.txt",
+  "name": "16万•MV",
+  "ok": false,
+  "err": "UnicodeEncodeError: 'ascii' codec can't encode characters in position 48-49: ordinal not in range(128)",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "jianpian"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://550.3vcn.work/aHR0cDovLzU1MC4zdmNuLndvcmsvanl0di5qc29u",
+  "name": "live",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "jinying"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://home.jundie.top:81/Cat/tv/live.txt",
+  "name": "直播",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "junge"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://ghfast.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+  "name": "综合直播",
+  "ok": false,
+  "err": "无频道解析",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "niuer"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://raw.liucn.cc/box/lib/tv/ipv6.m3u",
+  "name": "IPV6",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "ok1_liucn"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://develop202.github.io/migu_video/interface.txt",
+  "name": "migu",
+  "ok": false,
+  "err": "无频道解析",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shenmi",
+   "szyyds"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://ghproxy.net/raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.txt",
+  "name": "AI拾光",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://gitee.com/mytv-android/iptv-api/raw/master/output/result.m3u",
+  "name": "AIGuovin",
+  "ok": false,
+  "err": "HTTP 451",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://www.freetv.top/mgevent.m3u",
+  "name": "世界杯拾光",
+  "ok": false,
+  "err": "HTTP 512",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://ghproxy.cn/https://raw.githubusercontent.com/qinvision/Film-Television/main/dujuejiami.txt",
+  "name": "电影频道",
+  "ok": false,
+  "err": "无频道解析",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "http://iptv.herissmon.dpdns.org/jiekou/live.txt",
+  "name": "smt直播",
+  "ok": false,
+  "err": "URLError: <urlopen error [Errno 11001] getaddrinfo failed>",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://gh-proxy.com/https://raw.githubusercontent.com/xmbjm/IPTV/master/output/user_result.m3u",
+  "name": "拾光AI",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://tv.iill.top/m3u/Live",
+  "name": "网络Live",
+  "ok": false,
+  "err": "URLError: <urlopen error timed out>",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://tv.iill.top/m3u/Gather",
+  "name": "电视Live",
+  "ok": false,
+  "err": "URLError: <urlopen error timed out>",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://live.fanmingming.cn/tv/m3u/ipv6.m3u",
+  "name": "范明明Live",
+  "ok": false,
+  "err": "URLError: <urlopen error timed out>",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://yun.urldwz.com/f/Q6y3ca/migu.m3u",
+  "name": "咪咕直播",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 0
+ },
+ {
+  "u": "https://yun.urldwz.com/f/BE9PSL/huyayqk.m3u",
+  "name": "虎牙一起看",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 3
+ },
+ {
+  "u": "https://yun.urldwz.com/f/NR9qiA/douyuyqk.m3u",
+  "name": "斗鱼一起看",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 3
+ },
+ {
+  "u": "https://yun.urldwz.com/f/dlkycZ/yylunbo.m3u",
+  "name": "YY轮播",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 3
+ },
+ {
+  "u": "https://yun.urldwz.com/f/9XBkHK/bilibili.m3u",
+  "name": "B站直播",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "shiguang"
+  ],
+  "type": 3
+ },
+ {
+  "u": "https://szyyds.cn/tv/yqk",
+  "name": "一起看",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "szyyds"
+  ],
+  "type": 3
+ },
+ {
+  "u": "http://xhztv.top/njyy.txt",
+  "name": "直播",
+  "ok": false,
+  "err": "HTTP 404",
+  "nch": 0,
+  "alive": 0,
+  "samples": 0,
+  "src": [
+   "xiaohezi4k"
+  ],
+  "type": 0
+ }
+]

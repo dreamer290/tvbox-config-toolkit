@@ -1,0 +1,10 @@
+{
+ "cms": 39,
+ "spider": 107,
+ "live": 7,
+ "chans": 53,
+ "parses": 8,
+ "spider_url": "https://qist.wyfc.qzz.io/xiaosa/spider.jar",
+ "md5": "bbb5214a2ba3724821c5f8d2db5071dc",
+ "jar_file": "jar/xiaosa_spider.jar"
+}

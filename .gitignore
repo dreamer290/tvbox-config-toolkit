@@ -1,0 +1,35 @@
+# 下载缓存与研究产物（体积大，且属第三方内容，不入库）
+cfg/
+jar/
+tree_*.json
+meta_*.json
+gh_search*.json
+osc_tree.json
+tvboxorg_*.json
+tvboxorg_status.md
+lightconer_status.json
+qist_api.json
+sample_play.json
+tmp.java
+*.java
+
+# 构建产物
+__pycache__/
+*.pyc
+app/.venv-build/
+app/build/
+app/dist/
+app/settings.json
+*.spec
+
+# 系统
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# 本地运行时产物
+settings.json
+app/shot*.png
+*.gradle
+output/backup/
+output/tvbox-osc.json

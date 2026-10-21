@@ -1,0 +1,805 @@
+{
+ "spider": {
+  "url": "./spider.jar",
+  "ok": true,
+  "md5": "bbb5214a2ba3724821c5f8d2db5071dc",
+  "got": "bbb5214a2ba3724821c5f8d2db5071dc",
+  "size": 1863956,
+  "local_md5": "bbb5214a2ba3724821c5f8d2db5071dc",
+  "local_match": true,
+  "mode": "local"
+ },
+ "cms": [
+  {
+   "key": "蚂钱蚁",
+   "name": "🍚玛丽┃秒播",
+   "type": 1,
+   "ok": true,
+   "n": 3,
+   "ms": 677,
+   "via": 0,
+   "sample": "庆余年第二季"
+  },
+  {
+   "key": "gszy",
+   "name": "🎥┃光速┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 639,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "csp_SNzy",
+   "name": "🐉┃索尼┃高清",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 761,
+   "via": 2,
+   "sample": "老爸老头上路记"
+  },
+  {
+   "key": "量子资源",
+   "name": "量子｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 3,
+   "ms": 1469,
+   "via": 0,
+   "sample": "庆余年第二季"
+  },
+  {
+   "key": "a极速资源",
+   "name": "🎀极速┃采集",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 734,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "feifan",
+   "name": "🍀┃非凡┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 860,
+   "via": 0,
+   "sample": "庆余年第二季粤语"
+  },
+  {
+   "key": "量子资源2",
+   "name": "🔃量子┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 3,
+   "ms": 901,
+   "via": 0,
+   "sample": "庆余年第二季"
+  },
+  {
+   "key": "电影天堂",
+   "name": "️天堂┃采集",
+   "type": 1,
+   "ok": true,
+   "n": 7,
+   "ms": 777,
+   "via": 0,
+   "sample": "庆余年 第一季"
+  },
+  {
+   "key": "非凡",
+   "name": "🍭非凡┃采集",
+   "type": 0,
+   "ok": true,
+   "n": 8,
+   "ms": 941,
+   "via": 0
+  },
+  {
+   "key": "建安采集",
+   "name": "影视 • 建安",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 803,
+   "via": 0,
+   "sample": "非你莫属2026"
+  },
+  {
+   "key": "暴風资源采集",
+   "name": "暴風｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 10,
+   "ms": 1480,
+   "via": 0,
+   "sample": "庆余年 第一季"
+  },
+  {
+   "key": "csp_非凡资源",
+   "name": "🆕非凡┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 2138,
+   "via": 0,
+   "sample": "庆余年第二季粤语"
+  },
+  {
+   "key": "索尼资源",
+   "name": "🎊索尼┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 767,
+   "via": 2,
+   "sample": "老爸老头上路记"
+  },
+  {
+   "key": "无尽资源网",
+   "name": "无尽｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 1443,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "非凡2",
+   "name": "影视 • 非凡[直连]",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 909,
+   "via": 0,
+   "sample": "庆余年第二季粤语"
+  },
+  {
+   "key": "虎牙",
+   "name": "🐯虎牙采集",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 3635,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "a红牛资源",
+   "name": "🐂红牛┃采集",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 838,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "闪电资源网",
+   "name": "闪电｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 1067,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "快车资源网",
+   "name": "快车｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 1125,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "xml_火狐",
+   "name": "🔥️火狐┃秒播",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 754,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "量子",
+   "name": "🦚量子┃采集",
+   "type": 0,
+   "ok": true,
+   "n": 3,
+   "ms": 760,
+   "via": 0
+  },
+  {
+   "key": "闪电资源",
+   "name": "闪电资源(切)",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 918,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "天涯资源网",
+   "name": "天涯｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 1318,
+   "via": 2,
+   "sample": "重生打工王者"
+  },
+  {
+   "key": "iQIYI采集网",
+   "name": "iQIYI｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 2,
+   "ms": 1470,
+   "via": 0,
+   "sample": "庆余年第二季"
+  },
+  {
+   "key": "光速资源",
+   "name": "光速｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 1252,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "zy_金鹰影视点主页切换源",
+   "name": "🔰金鹰┃影视",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 835,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "索尼",
+   "name": "影视 • 索尼[直连]",
+   "type": 0,
+   "ok": true,
+   "n": 20,
+   "ms": 721,
+   "via": 2
+  },
+  {
+   "key": "新浪资源",
+   "name": "新浪资源(切)",
+   "type": 1,
+   "ok": true,
+   "n": 8,
+   "ms": 970,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "taopian",
+   "name": "🕹️淘片┃采集",
+   "type": 1,
+   "ok": true,
+   "n": 2,
+   "ms": 975,
+   "via": 0,
+   "sample": "庆余年 第二季"
+  },
+  {
+   "key": "茅台采集",
+   "name": "茅台｜采集",
+   "type": 0,
+   "ok": true,
+   "n": 20,
+   "ms": 3129,
+   "via": 2
+  },
+  {
+   "key": "百度",
+   "name": "百度",
+   "type": 1,
+   "ok": true,
+   "n": 2,
+   "ms": 1770,
+   "via": 0,
+   "sample": "庆余年第一季特别版"
+  },
+  {
+   "key": "天涯采集",
+   "name": "影视 • 天涯",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 971,
+   "via": 2,
+   "sample": "重生打工王者"
+  },
+  {
+   "key": "天堂资源网",
+   "name": "天堂｜采集",
+   "type": 0,
+   "ok": true,
+   "n": 7,
+   "ms": 823,
+   "via": 0
+  },
+  {
+   "key": "电影天堂2",
+   "name": "影视 • 电影天堂",
+   "type": 1,
+   "ok": true,
+   "n": 7,
+   "ms": 950,
+   "via": 0,
+   "sample": "庆余年 第一季"
+  },
+  {
+   "key": "最大采集",
+   "name": "最大｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 7,
+   "ms": 2162,
+   "via": 0,
+   "sample": "庆余年之风起沧州"
+  },
+  {
+   "key": "丫丫资源网采集",
+   "name": "丫丫｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 971,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "牛牛资源网",
+   "name": "牛牛｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 992,
+   "via": 2,
+   "sample": "一饭之恩，乞丐赐我通天眼"
+  },
+  {
+   "key": "量子资源3",
+   "name": "🥑┃量子┃资源",
+   "type": 1,
+   "ok": true,
+   "n": 20,
+   "ms": 2487,
+   "via": 2,
+   "sample": "她从棺中醒来(AI漫剧)"
+  },
+  {
+   "key": "魔都资源",
+   "name": "魔都｜采集",
+   "type": 1,
+   "ok": true,
+   "n": 3,
+   "ms": 2066,
+   "via": 0,
+   "sample": "庆余年之风起沧州"
+  }
+ ],
+ "live_channels": [
+  {
+   "name": "CCTV-1 综合",
+   "url": "http://61.138.128.226:29901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-2 财经",
+   "url": "http://61.138.128.226:29901/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-3 综艺",
+   "url": "http://61.138.128.226:29901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-4 中文国际",
+   "url": "http://61.138.128.226:29901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-5 体育",
+   "url": "http://61.138.128.226:29901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-5+ 体育赛事",
+   "url": "http://61.138.128.226:29901/tsfile/live/1006_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-6 电影",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/7/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-7 国防军事",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/8/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-8 电视剧",
+   "url": "http://61.138.128.226:29901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-9 纪录",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/10/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-10 科教",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/11/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-11 戏曲",
+   "url": "http://61.138.128.226:29901/tsfile/live/0011_2.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-12 社会与法",
+   "url": "http://61.138.128.226:29901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-13 新闻",
+   "url": "http://61.138.128.226:29901/tsfile/live/0013_2.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-14 少儿",
+   "url": "http://61.138.128.226:29901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-15 音乐",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/16/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CCTV-16 奥林匹克",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/17/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "三沙卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/1020_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "东南卫视",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/20/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "东方卫视",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/29/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "云南卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0119_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "内蒙古卫视",
+   "url": "http://222.71.55.147:9901/tsfile/live/0109_1.m3u8?key=txiptv&playlive=0&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "北京卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0122_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "南方卫视",
+   "url": "http://110.72.56.100:808/hls/81/index.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "四川卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0123_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "天津卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0135_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "宁夏卫视",
+   "url": "http://222.71.55.147:9901/tsfile/live/0112_1.m3u8?key=txiptv&playlive=0&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "安徽卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0130_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "山东卫视",
+   "url": "http://l.cztvcloud.com/channels/lantian/SXshengzhou1/720p.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "山西卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0118_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "广东卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0125_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "新疆卫视",
+   "url": "http://222.71.55.147:9901/tsfile/live/0110_1.m3u8?key=txiptv&playlive=0&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "江苏卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0127_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "江西卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0138_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "河北卫视",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/33/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "河南卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0139_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "浙江卫视",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/32/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "海南卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/1015_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "深圳卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0126_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "湖北卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0132_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "湖南卫视",
+   "url": "http://113.57.140.161:10081/newlive/live/hls/30/live.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "甘肃卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0141_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "西藏卫视",
+   "url": "http://222.71.55.147:9901/tsfile/live/0111_1.m3u8?key=txiptv&playlive=0&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "贵州卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0120_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "辽宁卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0121_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "重庆卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0142_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "陕西卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0136_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "青海卫视",
+   "url": "http://61.138.128.226:29901/tsfile/live/0140_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "黑龙江卫视",
+   "url": "http://l.cztvcloud.com/channels/lantian/SXyuyao3/720p.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "优漫卡通",
+   "url": "http://110.72.56.100:808/hls/31/index.m3u8",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "嘉佳卡通",
+   "url": "http://61.138.128.226:29901/tsfile/live/1019_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "金鹰卡通",
+   "url": "http://61.138.128.226:29901/tsfile/live/1018_1.m3u8?key=txiptv&playlive=1&authid=0",
+   "ok": true,
+   "info": "60001B"
+  },
+  {
+   "name": "CHC高清电影",
+   "url": "http://183.237.95.108:9901/tsfile/live/1008_1.m3u8?key=txiptv&playlive=0&authid=0",
+   "ok": true,
+   "info": "60001B"
+  }
+ ],
+ "live_sources": [
+  {
+   "name": "★ 精选53台·本地验证",
+   "ok": true,
+   "info": "本地文件",
+   "nch": 0
+  },
+  {
+   "name": "IPTV自动更新(233台,已验)",
+   "ok": true,
+   "info": "156频道",
+   "nch": 156
+  },
+  {
+   "name": "24live(1031台,已验)",
+   "ok": true,
+   "info": "1032频道",
+   "nch": 1032
+  },
+  {
+   "name": "平台直播(188台,已验)",
+   "ok": true,
+   "info": "222频道",
+   "nch": 222
+  },
+  {
+   "name": "虎牙一起看(已验)",
+   "ok": true,
+   "info": "1050频道",
+   "nch": 1050
+  },
+  {
+   "name": "斗鱼一起看(已验)",
+   "ok": true,
+   "info": "935频道",
+   "nch": 935
+  },
+  {
+   "name": "YY轮播(已验)",
+   "ok": true,
+   "info": "3频道",
+   "nch": 3
+  }
+ ],
+ "parses": [
+  {
+   "name": "vip4",
+   "url": "https://huayong.net/vip4/?url=",
+   "ok": true
+  },
+  {
+   "name": "m3u8",
+   "url": "https://jx.m3u8.tv/jiexi/?url=",
+   "ok": true
+  },
+  {
+   "name": "jx",
+   "url": "https://jx.m3u8.tv/jx/jx.php?url=",
+   "ok": true
+  },
+  {
+   "name": "8090",
+   "url": "https://www.8090g.cn/?url=",
+   "ok": true
+  },
+  {
+   "name": "8090g",
+   "url": "https://www.8090g.cn/jiexi/?url=",
+   "ok": true
+  },
+  {
+   "name": "CK",
+   "url": "https://www.ckplayer.vip/jiexi/?url=",
+   "ok": true
+  },
+  {
+   "name": "绣探",
+   "url": "https://www.pangujiexi.com/pangu/?url=",
+   "ok": true
+  },
+  {
+   "name": "盘古",
+   "url": "https://www.playm3u8.cn/jiexi.php?url=",
+   "ok": true
+  }
+ ]
+}
