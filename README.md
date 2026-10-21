@@ -61,18 +61,18 @@ TVBox 配置的痛点从来不是"找不到配置"，而是：
 把 `output/` 里的三个文件放进电视 `/sdcard/TVBox/`：
 
 ```
-tvbox-config.json    # 相对路径版配置
-spider.jar           # 相对路径版配套 jar
-live.txt             # 精选 53 台
+tvbox-osc-relative.json    # 172 站点配置（相对路径，开箱可用）
+spider-shiguang.jar        # 配套 jar，普通 jar 不会被误判为受保护
+live.txt                   # 精选 53 台
 ```
 
 配置地址填：
 
 ```
-clan://localhost/TVBox/tvbox-config.json
+clan://localhost/TVBox/tvbox-osc-relative.json
 ```
 
-`clan://` 是 TVBox 内置的本地 HTTP 服务，能让配置里的 `./spider.jar`、`./live.txt` 正确解析，原理与局域网方案一致，只是服务跑在设备自己身上。
+`clan://` 是 TVBox 内置的本地 HTTP 服务，能让配置里的 `./spider-shiguang.jar`、`./live.txt` 正确解析，原理与局域网方案一致，只是服务跑在设备自己身上。
 
 ### 方式三：从源码跑
 
@@ -89,15 +89,16 @@ python app/TVBoxTool.py --cli    # 命令行复检，不弹窗（加 --quick 抽
 
 | 文件 | 站点 | 适用场景 | 说明 |
 |---|---|---|---|
-| `tvbox-osc-fixed.json` | 172 | TVBoxOSC 等分支（推荐） | 配 `spider-shiguang.jar`，普通 jar 不会被误判为受保护；地址绑定 `192.168.31.25`，换机器需改成本机 IP |
-| `tvbox-osc-relative.json` | 172 | 同上，但走相对路径 | jar 与直播清单用 `./`，配合 `clan://` 或任意 HTTP 根目录即可，**换机器不用改配置** |
-| `tvbox-config.json` | 146 | 支持 `clan://` 的设备本地加载 | `./spider.jar` 相对路径，站点数少于上一份 |
-| `tvbox-lan.json` | — | 不解析 `./` 的老分支 | 局域网地址写死，换网络后失效 |
-| `tvbox-online.json` | — | 单文件、零本地依赖 | jar 走公网，需电视能直连该域名 |
+| `tvbox-osc-relative.json` | 172 | **默认推荐**，所有分支通用 | `./spider-shiguang.jar` + `./live.txt` 相对路径，配合任意 HTTP 根目录或 `clan://` 即可，**换机器不用改配置** |
+| `tvbox-osc-fixed.json` | 172 | 不解析 `./` 的老分支 | 地址写死为占位值 `192.168.1.100`，**需改成你自己的电脑 IP** 才能用 |
+| `tvbox-config.json` | 146 | 白名单内的播放器（FongMi 等） | `./spider.jar`，xiaosa 全量站点；在 TVBoxOSC 上会被误判为受保护 jar |
+| `tvbox-online.json` | 146 | 单文件、零本地依赖 | jar 走公网，需电视能直连该域名 |
 
-> 仓库里的配置默认带着打包时的局域网 IP（`192.168.31.25`）。换到自己机器上，用桌面工具开服务后把地址换成界面显示的那个即可；或者直接用 `tvbox-osc-relative.json` + 设备本地 `clan://` 方案，完全不涉及 IP。
+> 仓库里的 IP 一律写成占位值 `192.168.1.100`，不包含任何真实局域网地址。开箱可用的是
+> `tvbox-osc-relative.json`：把 `output/` 整个目录拷到设备 `/sdcard/TVBox/`，配置地址填
+> `clan://localhost/TVBox/tvbox-osc-relative.json`；或用桌面工具开服务后填界面显示的地址。
 
-`tvbox-A/B/C-*.json` 是排障用的诊断变体（无 jar / 无 md5 / 本地 jar），平时用不到。
+`output/diagnostics/` 里是排障用的诊断变体（无 jar / 无 md5 / 本地 jar），平时用不到。
 
 ---
 

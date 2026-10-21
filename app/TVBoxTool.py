@@ -1014,7 +1014,7 @@ class App(object):
             names = [x for x in os.listdir(out) if x.endswith(".json")]
         except Exception:
             return []
-        priority = ["tvbox-osc-fixed.json", "tvbox-config.json", "tvbox-lan.json", "tvbox-online.json"]
+        priority = ["tvbox-osc-relative.json", "tvbox-osc-fixed.json", "tvbox-config.json", "tvbox-online.json"]
         names.sort(key=lambda x: (priority.index(x) if x in priority else 99, x))
         return names
 

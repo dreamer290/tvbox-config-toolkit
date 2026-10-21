@@ -1,5 +1,5 @@
 {
- "spider": "http://192.168.31.25:9978/spider-shiguang.jar;md5;91eb942e44d1154447df4f91ed714488",
+ "spider": "http://192.168.1.100:9978/spider-shiguang.jar;md5;91eb942e44d1154447df4f91ed714488",
  "wallpaper": "https://bing.img.run/1920x1080.php",
  "sites": [
   {
@@ -2284,7 +2284,7 @@
    "group": "本地精选",
    "name": "★ 精选53台·本地验证",
    "type": 0,
-   "url": "http://192.168.31.25:9978/live.txt",
+   "url": "http://192.168.1.100:9978/live.txt",
    "playerType": 0
   },
   {

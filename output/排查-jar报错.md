@@ -86,8 +86,11 @@ private boolean bindDexLoader(Class<?> clz, Object init) {
 配置地址填：
 
 ```
-http://192.168.31.25:9978/tvbox-osc-fixed.json
+http://192.168.1.100:9978/tvbox-osc-fixed.json
 ```
+
+> 上面的 `192.168.1.100` 是占位地址，请换成你自己电脑的局域网 IP（工具启动后会直接显示），
+> 或者改用 `tvbox-osc-relative.json`，它走 `./` 相对路径，不用改 IP。
 
 **换之前先点「清空缓存」**，否则会继续读到旧 jar 的缓存文件。
 

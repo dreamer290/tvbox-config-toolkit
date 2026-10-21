@@ -8,7 +8,7 @@ import json, os, shutil, hashlib, re, zipfile
 from dex_methods import Dex
 
 OUT = "output"
-LAN = "http://192.168.31.25:9978/"
+LAN = "http://192.168.1.100:9978/"
 JAR_SRC = "jar/shiguang_svip.jar"
 JAR_NAME = "spider-shiguang.jar"
 
