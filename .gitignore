@@ -33,3 +33,8 @@ app/shot*.png
 *.gradle
 output/backup/
 output/tvbox-osc.json
+
+# 本地授权临时文件
+.device.json
+.ghtoken
+_authpoll.py
