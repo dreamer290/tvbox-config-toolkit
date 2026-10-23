@@ -41,3 +41,6 @@ _authpoll.py
 
 # 推送用的本地 SSH 密钥
 .ssh/
+
+# 直播源候选缓存
+livesrc/

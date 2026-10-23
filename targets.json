@@ -1,0 +1,426 @@
+[
+ {
+  "name": "CCTV-1 综合",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 1
+  }
+ },
+ {
+  "name": "CCTV-2 财经",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 2
+  }
+ },
+ {
+  "name": "CCTV-3 综艺",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 3
+  }
+ },
+ {
+  "name": "CCTV-4 中文国际",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 4
+  }
+ },
+ {
+  "name": "CCTV-5 体育",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 5
+  }
+ },
+ {
+  "name": "CCTV-5+ 体育赛事",
+  "group": "央视频道",
+  "match": {
+   "type": "contains",
+   "kw": "cctv5+"
+  }
+ },
+ {
+  "name": "CCTV-6 电影",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 6
+  }
+ },
+ {
+  "name": "CCTV-7 国防军事",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 7
+  }
+ },
+ {
+  "name": "CCTV-8 电视剧",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 8
+  }
+ },
+ {
+  "name": "CCTV-9 纪录",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 9
+  }
+ },
+ {
+  "name": "CCTV-10 科教",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 10
+  }
+ },
+ {
+  "name": "CCTV-11 戏曲",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 11
+  }
+ },
+ {
+  "name": "CCTV-12 社会与法",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 12
+  }
+ },
+ {
+  "name": "CCTV-13 新闻",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 13
+  }
+ },
+ {
+  "name": "CCTV-14 少儿",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 14
+  }
+ },
+ {
+  "name": "CCTV-15 音乐",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 15
+  }
+ },
+ {
+  "name": "CCTV-16 奥林匹克",
+  "group": "央视频道",
+  "match": {
+   "type": "cctv",
+   "num": 16
+  }
+ },
+ {
+  "name": "三沙卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "三沙"
+  }
+ },
+ {
+  "name": "东南卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "东南"
+  }
+ },
+ {
+  "name": "东方卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "东方"
+  }
+ },
+ {
+  "name": "云南卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "云南"
+  }
+ },
+ {
+  "name": "内蒙古卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "内蒙古"
+  }
+ },
+ {
+  "name": "北京卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "北京"
+  }
+ },
+ {
+  "name": "南方卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "南方"
+  }
+ },
+ {
+  "name": "四川卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "四川"
+  }
+ },
+ {
+  "name": "天津卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "天津"
+  }
+ },
+ {
+  "name": "宁夏卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "宁夏"
+  }
+ },
+ {
+  "name": "安徽卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "安徽"
+  }
+ },
+ {
+  "name": "山东卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "山东"
+  }
+ },
+ {
+  "name": "山西卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "山西"
+  }
+ },
+ {
+  "name": "广东卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "广东"
+  }
+ },
+ {
+  "name": "新疆卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "新疆"
+  }
+ },
+ {
+  "name": "江苏卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "江苏"
+  }
+ },
+ {
+  "name": "江西卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "江西"
+  }
+ },
+ {
+  "name": "河北卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "河北"
+  }
+ },
+ {
+  "name": "河南卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "河南"
+  }
+ },
+ {
+  "name": "浙江卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "浙江"
+  }
+ },
+ {
+  "name": "海南卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "海南"
+  }
+ },
+ {
+  "name": "深圳卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "深圳"
+  }
+ },
+ {
+  "name": "湖北卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "湖北"
+  }
+ },
+ {
+  "name": "湖南卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "湖南"
+  }
+ },
+ {
+  "name": "甘肃卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "甘肃"
+  }
+ },
+ {
+  "name": "西藏卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "西藏"
+  }
+ },
+ {
+  "name": "贵州卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "贵州"
+  }
+ },
+ {
+  "name": "辽宁卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "辽宁"
+  }
+ },
+ {
+  "name": "重庆卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "重庆"
+  }
+ },
+ {
+  "name": "陕西卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "陕西"
+  }
+ },
+ {
+  "name": "青海卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "青海"
+  }
+ },
+ {
+  "name": "黑龙江卫视",
+  "group": "卫视频道",
+  "match": {
+   "type": "sat",
+   "kw": "黑龙江"
+  }
+ },
+ {
+  "name": "优漫卡通",
+  "group": "少儿频道",
+  "match": {
+   "type": "contains",
+   "kw": "优漫卡通"
+  }
+ },
+ {
+  "name": "嘉佳卡通",
+  "group": "少儿频道",
+  "match": {
+   "type": "contains",
+   "kw": "嘉佳卡通"
+  }
+ },
+ {
+  "name": "金鹰卡通",
+  "group": "少儿频道",
+  "match": {
+   "type": "contains",
+   "kw": "金鹰卡通"
+  }
+ },
+ {
+  "name": "CHC高清电影",
+  "group": "数字剧场",
+  "match": {
+   "type": "contains",
+   "kw": "CHC高清电影"
+  }
+ }
+]
