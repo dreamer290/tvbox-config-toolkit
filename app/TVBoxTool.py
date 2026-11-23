@@ -706,6 +706,20 @@ class ConfigServer(object):
             def __init__(self, *a, **kw):
                 super().__init__(*a, directory=srv.root, **kw)
 
+            def translate_path(self, path):
+                """先按新根目录解析；不存在时回退 output/ 下找同名文件。
+                兼容旧版（根目录=output，地址无 /output 前缀）与新版（根目录=仓库根），
+                电视端无论存的是哪种历史地址都能取到配置和 jar。"""
+                p = super().translate_path(path)
+                if os.path.exists(p):
+                    return p
+                rel = path.split("?")[0].split("#")[0].strip("/")
+                if rel and ".." not in rel:
+                    alt = os.path.join(srv.root, "output", *rel.split("/"))
+                    if os.path.exists(alt):
+                        return alt
+                return p
+
             def end_headers(self):
                 self.send_header("Access-Control-Allow-Origin", "*")
                 self.send_header("Cache-Control", "no-store, no-cache, must-revalidate")
