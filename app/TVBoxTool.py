@@ -7,6 +7,7 @@ TVBox 配置工具（Windows 桌面版）
   2) 展示可直接填进 TVBox 的服务地址，支持复制、浏览器打开
   3) 复检配置里的采集源 / spider 类 / 直播频道 / 解析器
   4) 按复检结果更新配置文件（剔除失效项，自动备份，可回滚）
+  5) 自动发现更新：搜索 GitHub 公开配置与直播源，实测后合并写入（updater.py）
 
 仅使用 Python 标准库，打包后不依赖任何运行环境。
 """
@@ -917,6 +918,9 @@ class App(object):
         self.btn_report = ttk.Button(bar, text="导出报告", style="Ghost.TButton",
                                      command=self.export_report, state="disabled")
         self.btn_report.pack(side="left", padx=8)
+        self.btn_update = ttk.Button(bar, text="🔎 自动发现更新", style="Accent.TButton",
+                                     command=self.start_update)
+        self.btn_update.pack(side="left")
         self.lbl_stage = tk.Label(bar, text="", bg=CARD, fg=ACCENT, font=("Microsoft YaHei UI", 9, "bold"))
         self.lbl_stage.pack(side="right")
         self.pb = ttk.Progressbar(f3, mode="determinate", style="Bar.Horizontal.TProgressbar")
@@ -1195,7 +1199,74 @@ class App(object):
 
     def stop_check(self):
         self.stop_event.set()
-        self.log_line("正在停止复检…", "warn")
+        self.log_line("正在停止任务…", "warn")
+
+    # ---------- 自动发现更新 ----------
+    def start_update(self):
+        if self._busy_verify:
+            return
+        if not self.cfg_name:
+            self.log_line("没有可更新的配置文件", "err")
+            return
+        from tkinter import messagebox
+        if not messagebox.askyesno(
+                "自动发现更新",
+                "将搜索 GitHub 公开的 TVBox 配置与直播清单，逐项实测后把通过的源合并写入：\n"
+                "  · %s（新增采集站）\n  · output/live.txt（补充备用源 / 新频道）\n\n"
+                "原文件自动备份；写回后自动体检，体检失败会回滚。继续？"
+                % self.cfg_name):
+            return
+        for i in self.tv.get_children():
+            self.tv.delete(i)
+        self.rows_by_iid.clear()
+        self.btn_apply.config(state="disabled")
+        self.btn_report.config(state="disabled")
+        self.btn_check.config(state="disabled")
+        self.btn_update.config(state="disabled")
+        self.btn_stop.config(state="normal")
+        self.pb["value"] = 0
+        self.pb["maximum"] = 100
+        self._busy_verify = True
+        self.stop_event.clear()
+        self.log_line("开始自动发现更新（GitHub 搜索 → 实测 → 合并）", "info")
+        emit = lambda *a: self.msgq.put(a)
+        from updater import Updater
+        self.updater = Updater(self.root_dir, self.cfg_name, emit, self.stop_event)
+        threading.Thread(target=self._run_updater, args=(self.updater,), daemon=True).start()
+
+    def _run_updater(self, upd):
+        try:
+            upd.run()
+        except Exception as e:
+            import traceback
+            self.msgq.put(("log", "自动更新异常：%s" % e, "err"))
+            self.msgq.put(("log", traceback.format_exc()[-600:], "err"))
+            self.msgq.put(("ufinished", {"err": str(e), "report_rows": []}))
+
+    def on_update_finished(self, summary):
+        self._busy_verify = False
+        self.btn_check.config(state="normal")
+        self.btn_update.config(state="normal")
+        self.btn_stop.config(state="disabled")
+        from tkinter import messagebox
+        if summary.get("err"):
+            self.lbl_stage.config(text="更新失败")
+            self.lbl_sum.config(text=summary["err"])
+            messagebox.showerror("自动发现更新", summary["err"])
+            return
+        st = summary
+        head = "新增站点 %d · 直播补充 %d 处 · 新频道 %d 个" % (
+            len(st.get("added_sites") or []), st.get("updated_chans", 0), len(st.get("new_chans") or []))
+        self.lbl_stage.config(text="更新完成" if st.get("written") else "预览完成")
+        self.lbl_sum.config(text=head + (" ｜ 已写回" if st.get("written") else " ｜ 未写入"))
+        self.log_line("自动更新结束：%s" % head, "ok")
+        self.refresh_cfg_list()
+        rp = os.path.join(self.root_dir, "output", "update_report.html")
+        msg = head + "\n\n备份：" + "、".join(os.path.basename(b) for b in (st.get("backup") or []))
+        if st.get("lint_warns"):
+            msg += "\n体检提示 %d 条（见日志）" % len(st["lint_warns"])
+        msg += "\n\n报告：%s\n\n请在 TVBox 中「清空缓存」后重新加载配置。" % rp
+        messagebox.showinfo("自动发现更新", msg)
 
     def apply_results(self):
         if not self.report:
@@ -1262,6 +1333,8 @@ class App(object):
             self.add_row(m[1])
         elif kind == "finished":
             self.on_finished(m[1], m[2], m[3])
+        elif kind == "ufinished":
+            self.on_update_finished(m[1])
         elif kind == "req":
             self.log_line("  [请求] %s %s" % (m[2], m[1]), "muted")
 
